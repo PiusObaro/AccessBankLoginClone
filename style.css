@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Google Sans", sans-serif;;
+}
+
+body {
+    background-color: #f5f7f8;
+}
+
+.topInfo {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 8px 0;
+}
+
+.topInfo > p {
+    font-size: 16px;
+}
+
+.topInfo > p > span {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.loginContainer {
+    display: flex;
+}
+
+.loginContent {
+    flex: 1;
+}
+
+.content {
+    
+    width: 400px;
+    margin: auto;
+}
+
+.content > h2 {
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.content > p {
+    margin-block: 1rem;
+    font-size: .75rem;
+    font-weight: 500;
+}
+
+.content > p > a {
+    text-decoration: none;
+    color: #ff8200;
+    font-weight: 700;
+}
+
+.loginImg {
+    display: auto;
+}
+
+
+/* form styling */
+.input-container {
+    
+    padding: 0.3rem 0.6rem;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.7rem;
+}
+
+.input-container > input {
+    border: none;
+    width: 100%;
+    padding: 0.4rem 1rem;
+    outline: none;
+}
+
+.input-container > input::placeholder {
+    text-transform: capitalize;
+    font-weight: 600;
+    opacity: 0.5;
+    font-size: 0.75rem;
+
+}
+
+.input-container > i {
+    font-size: 0.75rem;
+    color: grey;
+}
+
+.reset {
+    display: block;
+    text-align: end;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #ff8200;
+    font-weight: 700;
+}
+
+button {
+    border: none;
+    border-radius: 7px;
+    width: 100%;
+    margin-block: 0.7rem;
+    padding: 0.7rem 1rem;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: #ff8200;
+}
+
+.register {
+    display: block;
+    text-align: center;
+    padding: 0.7rem 1rem;
+    border-radius: 7px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    box-shadow: 0.1 0.1rem 6px grey;
+}
+
+.policy {
+    margin-top: 0.8rem;
+    border: 1px solid;
+    display: block;
+    text-align: center;
+    padding: 0.7rem 1rem;
+    border-radius: 7px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+.policy > span {
+    color: #ff8200;
+}
+
+footer {
+    background-color: #fff;
+    padding: 1.5rem;
+}
+
+footer > h4 {
+    font-size: 10px;
+}
+
